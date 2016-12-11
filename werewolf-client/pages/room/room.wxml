@@ -1,0 +1,48 @@
+<view>
+
+  <view class="message">
+    <view>
+      <div class="time">倒计时: {{second}} </div>
+      <div class="choose">{{choose_num}}</div>
+    </view>
+  </view>
+
+  <view class="row" style="flex-direction:row;">
+    <image class="job_icon" src="{{job_src[0]}}"></image>
+    <image class="seat" bindtap="choose_1" src="{{src[0]}}"></image>
+    <image class="job_icon" src="{{job_src[1]}}"></image>
+    <image class="seat" bindtap="choose_2" src="{{src[1]}}"></image>
+    <image class="job_icon" src="{{job_src[2]}}"></image>
+    <image class="seat" bindtap="choose_3" src="{{src[2]}}"></image>
+  </view>
+
+  <view class="row_icon" style="flex-direction:row;">
+    <span class="number">1</span>
+    <span class="number">2</span>
+    <span class="number">3</span>
+  </view>
+
+  <view class="row" style="flex-direction:row;">
+    <image class="job_icon" src="{{job_src[3]}}"></image>
+    <image class="seat" bindtap="choose_4" src="{{src[3]}}"></image>
+    <image class="job_icon" src="{{job_src[4]}}"></image>
+    <image class="seat" bindtap="choose_5" src="{{src[4]}}"></image>
+    <image class="job_icon" src="{{job_src[5]}}"></image>
+    <image class="seat" bindtap="choose_6" src="{{src[5]}}"></image>
+  </view>
+
+  <view class="row_icon" style="flex-direction:row;">
+    <span class="number">4</span>
+    <span class="number">5</span>
+    <span class="number">6</span>
+  </view>
+
+<audio class="audio" src="http://brandonwei-10027562.cos.myqcloud.com/%E7%8B%BC%E5%90%BC%2B%E5%A4%A9%E9%BB%91%E8%AF%B7%E9%97%AD%E7%9C%BC.mp3" id="night"></audio>
+
+<audio class="audio" src="http://brandonwei-10027562.cos.myqcloud.com/%E7%8B%BC%E4%BA%BA%E8%AF%B7%E7%9D%81%E7%9C%BC%EF%BC%8C%E7%8B%BC%E4%BA%BA%E8%AF%B7%E9%80%89%E6%8B%A9%E8%A6%81%E6%9D%80%E7%9A%84%E5%AF%B9%E8%B1%A1.mp3" id="wolf"></audio>
+
+<audio class="audio" src="http://brandonwei-10027562.cos.myqcloud.com/%E7%8B%BC%E4%BA%BA%E8%AF%B7%E9%97%AD%E7%9C%BC%EF%BC%8C%E9%A2%84%E8%A8%80%E5%AE%B6%E8%AF%B7%E7%9D%81%E7%9C%BC%E6%9F%A5%E4%BA%BA.mp3" id="prophet"></audio>
+
+<audio class="audio" src="http://brandonwei-10027562.cos.myqcloud.com/%E9%A2%84%E8%A8%80%E5%AE%B6%E8%AF%B7%E9%97%AD%E7%9C%BC%EF%BC%8C%E5%A4%A9%E4%BA%AE%E4%BA%86.mp3" id="day"></audio>
+
+</view>

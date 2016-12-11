@@ -1,0 +1,4 @@
+<view class="section background">
+	<p class="text">{{text}}</p>
+	<button class="button" bindtap="joinRoom">进入房间</button>
+</view>

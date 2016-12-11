@@ -1,0 +1,12 @@
+{
+    "pages": [
+        "pages/lobby/lobby",
+        "pages/room/room"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#333",
+        "navigationBarTitleText": "月圆之夜",
+        "navigationBarTextStyle": "white"
+    }
+}
