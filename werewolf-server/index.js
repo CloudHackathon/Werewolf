@@ -290,12 +290,12 @@ function checkWin(type) {
     } else if (type == 1) {
         var voute_count = 0;
         // 所有人都投了才判断胜利条件
-        for (var i = 1; i <= total_num; i++) {
+        for (var i = 1; i <= user_info_list.length; i++) {
             if (user_vote_record[i] != undefined) {
-                voute_count++;
+                voute_count += user_vote_record[i];
             }
         }
-        if (voute_count >= total_num) {
+        if (voute_count >= user_info_list.length) {
             can_check = true;
         }
 
